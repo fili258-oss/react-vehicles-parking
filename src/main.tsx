@@ -1,12 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
-import Contador from './Contador.tsx'
+import App from './screens/App.tsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-    <Contador />
+    
   </React.StrictMode>,
 )
